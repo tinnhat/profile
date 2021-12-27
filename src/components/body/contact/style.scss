@@ -1,0 +1,28 @@
+.download-icon {
+  margin-right: 8px;
+}
+.contact-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.cv-down {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #7fffd4;
+  color: #333;
+}
+.contact-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 720px) {
+  .contact-container {
+    flex-direction: column;
+  }
+}

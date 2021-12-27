@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #cfffdc;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .home {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 512px) {
+  .home {
+    width: 100%;
+  }
+}

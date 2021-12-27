@@ -1,0 +1,41 @@
+.name {
+  font-size: 18px;
+  padding-top: 20px;
+  font-weight: 600;
+}
+.time {
+  color: grey;
+  padding: 10px 0;
+}
+.description {
+  padding-bottom: 10px;
+}
+.work-container {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cer-box {
+  text-align: center;
+}
+
+.cer-link {
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #7fffd4;
+  color: #333;
+}
+.work-item {
+  margin-right: 20px;
+}
+@media screen and (max-width: 720px) {
+  .logo-ute {
+    height: 150px;
+  }
+  .work-container {
+    flex-direction: column;
+  }
+}
